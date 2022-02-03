@@ -13,15 +13,24 @@ public class City {
         }
     }
 
-    public void printDistricts(){
+    public void printDistricts() {
 
         Iterator<District> iter_Distr = districts.iterator();
-        while (iter_Distr.hasNext()){
+        while (iter_Distr.hasNext()) {
             District d = iter_Distr.next();
             System.out.println(d.getName());
             System.out.println(d.getPop());
             System.out.println(d.getWealth());
         }
-
     }
+
+    public String allDrivers(){
+        String out = "";
+        Iterator<District> iter_Distr = districts.iterator();
+        while (iter_Distr.hasNext()) {
+            System.out.println(iter_Distr.next().printDrivers());
+        }
+        return out;
+    }
+
 }

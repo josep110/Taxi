@@ -15,6 +15,7 @@ public class Taxi extends Application {
 //        stage.show();
         City test = new City();
         test.printDistricts();
+
     }
 
     public static void main(String[] args) {
