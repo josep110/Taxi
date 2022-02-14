@@ -10,6 +10,8 @@ public class District {
     private int population;
     private int wealth;
     private ArrayList<Depot> depots = new ArrayList<Depot>();
+    private int[][] districtMap;
+
 
     public District(){
 
@@ -19,6 +21,7 @@ public class District {
         for (int i = 0;i < 5;i++){
             depots.add(new Depot(i));
         }
+        this.districtMap = new int[6][6];
 
     }
 
