@@ -1,26 +1,33 @@
 package taxi.code;
 
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class Taxi extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Taxi.class.getResource("taxi.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
+
+        Parent root = FXMLLoader.load(Taxi.class.getResource("title.fxml"));
+        Scene sc = new Scene(root,640,480);
+        sc.getStylesheets().add("titleSS.css");
+
+        stage.setTitle("Taxi! - Taxi Management Sim");
+        stage.setResizable(false);
+
+        stage.setScene(sc);
         stage.show();
-        City test = new City();
-        test.printDistricts();
 
     }
 
     public static void main(String[] args) {
         launch();
     }
+
 }

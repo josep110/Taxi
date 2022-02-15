@@ -1,0 +1,9 @@
+AnchorPane {
+    -fx-background-color:black;
+}
+
+Button {
+    -fx-background-color:darkorange;
+    -fx-border-color:silver;
+    -fx-border-width:3;
+}
