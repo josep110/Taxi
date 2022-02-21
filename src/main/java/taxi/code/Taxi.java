@@ -13,16 +13,7 @@ public class Taxi extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-
-        Parent root = FXMLLoader.load(Taxi.class.getResource("title.fxml"));
-        Scene sc = new Scene(root,640,480);
-        sc.getStylesheets().add("titleSS.css");
-
-        stage.setTitle("Taxi! - Taxi Management Sim");
-        stage.setResizable(false);
-
-        stage.setScene(sc);
-        stage.show();
+        TaxiController.loadTitle(stage);
 
     }
 

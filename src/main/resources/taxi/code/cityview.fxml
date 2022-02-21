@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="taxi.code.TaxiController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="d2" layoutX="259.0" layoutY="78.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d5" layoutX="259.0" layoutY="158.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d3" layoutX="339.0" layoutY="78.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d6" layoutX="339.0" layoutY="158.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d9" layoutX="339.0" layoutY="238.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d1" layoutX="180.0" layoutY="78.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d4" layoutX="180.0" layoutY="158.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d8" layoutX="260.0" layoutY="238.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Button fx:id="d7" layoutX="180.0" layoutY="238.0" mnemonicParsing="false" onAction="#district" prefHeight="80.0" prefWidth="80.0" text="Button" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press q to exit." />
+   </children>
+</AnchorPane>
