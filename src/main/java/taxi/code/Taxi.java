@@ -14,11 +14,12 @@ public class Taxi extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         TaxiController.loadTitle(stage);
-
     }
 
     public static void main(String[] args) {
         launch();
     }
+
+
 
 }

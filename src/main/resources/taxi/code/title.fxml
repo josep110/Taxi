@@ -17,7 +17,7 @@
             <Font name="Webdings" size="64.0" />
          </font>
       </Text>
-      <Button fx:id="newGame" contentDisplay="CENTER" layoutX="252.0" layoutY="143.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#loadCityView" prefHeight="40.0" prefWidth="136.0" text="New Game" AnchorPane.leftAnchor="252.0" AnchorPane.rightAnchor="252.0">
+      <Button fx:id="newGame" contentDisplay="CENTER" layoutX="252.0" layoutY="143.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNG" prefHeight="40.0" prefWidth="136.0" text="New Game" AnchorPane.leftAnchor="252.0" AnchorPane.rightAnchor="252.0">
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding></Button>

@@ -5,11 +5,13 @@ import java.util.Iterator;
 
 public class City {
 
-    ArrayList<District> districts = new ArrayList<District>();
+    //ArrayList<District> districts = new ArrayList<District>();
+    District[] districts = new District[9];
 
     public City() {
-        for (int i=0;i <= 1+(int)(Math.random()*12);i++){
-            districts.add(new District());
+
+        for (int i=0;i < 9;i++){
+            districts[i] = new District("dis"+i+".fxml");
         }
     }
 

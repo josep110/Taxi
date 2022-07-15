@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class District {
 
+    private String assoc;
     private String name;
     private int population;
     private int wealth;
@@ -13,8 +14,9 @@ public class District {
     private int[][] districtMap;
 
 
-    public District(){
+    public District(String assoc){
 
+        this.assoc = assoc;
         this.name = this.generateName();
         this.population = (int)(Math.random() * 5000);
         this.wealth = 1 + (int)(Math.random() * 9);
@@ -22,6 +24,8 @@ public class District {
             depots.add(new Depot(i));
         }
         this.districtMap = new int[6][6];
+
+
 
     }
 
